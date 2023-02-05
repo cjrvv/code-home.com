@@ -1,0 +1,33 @@
+.java-sec {
+	width: 80%;
+	margin: auto;
+}
+
+.java-sec p{
+	margin: 5px;
+	font-size: 16px;
+}
+
+.java-head {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.p-java {
+	color: black;
+	font-weight: bold;
+}
+
+.java-sec {
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+
+.red-btn {
+	margin-left: 15px;
+}
+
+.java-1 img{
+	margin-left: 12.5px;
+	max-width: 87%;
+}

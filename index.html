@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>Homepage</title>
+</head>
+<body>
+	<section class="Header">
+		<nav>
+			<a href="index.html"><img src="Images/head-logo.png"></a>
+			<div class="features-links" id="features">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="language.html">LANGUAGES</a></li>
+					<li><a href="quiz.html">QUIZZES</a></li>
+					<li><a href="">TUTORIAL</a></li>
+					<li><a href="">EXERCISES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+<div class="text-box">
+	<h1>Codehome Interactive Website</h1>
+	<p>This is where the user can learn about different programming languages. As of now Java is the only <br>programming language that we're trying to put in our website.</p>
+	<a href="" class="start-here">Don't Know Where To Start?</a>
+</div>
+
+	</section>
+
+<!--Languages-->
+
+<section class="language">
+	<h1 class="header2">Learn Different Languages</h1>
+	<p>Start gaining knowledge of the fundamentals of several programming languages.</p>	
+
+
+	<div class="row">
+		<div class="Col-num">
+			<h3>Java</h3>
+			<p>Java is a widely used and popular programming language.</p>
+			<a href="language-java.html" class="V-btn"><button class="card-btn">Visit <span class="V-btn">&rarr;</span></button></a>
+		</div>
+		<div class="Col-num">
+			<h3>HTML</h3>
+			<p>Still work in progress.</p>
+		</div>
+		<div class="Col-num">
+			<h3>CSS</h3>
+			<p>Still work in progress.</p>
+		</div>
+	</div>
+
+
+</section>
+
+<!------- QUIZZES -------->
+
+<section class="quiz-sec">
+	<h1>Quizzes</h1>
+	<p>Let's evaluate your knowledge and skills.</p>
+
+	<div class="quiz-row">
+		<div class="quiz-column">
+			<a href="quiz-start.html">
+				<img src="Images/java-logo.png">
+				<div class="layer">
+					<h3>JAVA</h3>
+				</div>
+			</a>
+		</div>	
+		<div class="quiz-column">
+			<a href="quiz-html.html">
+				<img src="Images/language2.png">
+				<div class="layer">
+					<h3>HTML</h3>
+				</div>
+			</a>
+		</div>	
+		<div class="quiz-column">
+			<a href="quiz-css.html">
+				<img src="Images/language3.png">
+				<div class="layer">
+					<h3>CSS</h3>
+				</div>
+			</a>
+		</div>	
+	</div>
+
+</section>
+
+<!----- CONTACT US ----->
+
+<section class="cs">
+	<h1>"Programming isn't about what you know;<br> it's about what you can figure out.” <br>- Chris Pine</h1>
+	<a href="contact.html" class="start-here">CONTACT US</a>
+</section>
+
+<!----- ABOUT ----->
+
+<section class="about-us">
+	<h4>About Us</h4>
+	<p>CODEHOME is an interactive website where the user can improve their undertanding when it comes to the fundamentals of different <br>programming languages. This website contains quizzes, learning, tutorials, and some exercises.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-google"></i>
+	</div>
+
+</section>
+
+<script>
+	
+	var features = document.getElementById("features");
+
+	function showMenu() {
+		features.style.right = "0";
+	}
+	function hideMenu() {
+		features.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>

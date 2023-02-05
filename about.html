@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>About Us</title>
+</head>
+<body>
+	<section class="sub-Header">
+		<nav>
+			<a href="index.html"><img src="Images/head-logo.png"></a>
+			<div class="features-links" id="features">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="language.html">LANGUAGES</a></li>
+					<li><a href="quiz.html">QUIZZES</a></li>
+					<li><a href="">TUTORIAL</a></li>
+					<li><a href="">EXERCISES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>About Us</h1>
+	</section>
+
+<!----- about us content ------->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>Learn more in this website and have fun</h1>
+			<p>We are the students from Cainta Senior High School. This website is for the students who wants to learn different programming languages. </p>
+			<a href="index.html" class="start-here red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="Images/ict-logo2.png">
+		</div>
+	</div>
+</section>
+
+<!----- ABOUT ----->
+
+<section class="about-us">
+	<h4>About Us</h4>
+	<p>CODEHOME is an interactive website where the user can improve their undertanding when it comes to the fundamentals of different <br>programming languages. This website contains quizzes, learning, tutorials, and some exercises.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-google"></i>
+	</div>
+
+</section>
+
+<script>
+	
+	var features = document.getElementById("features");
+
+	function showMenu() {
+		features.style.right = "0";
+	}
+	function hideMenu() {
+		features.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<script type="text/javascript" src="custom-java.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>Learn Java</title>
+</head>
+<body>
+	<section class="sub-Header">
+		<nav>
+			<a href="index.html"><img src="Images/head-logo.png"></a>
+			<div class="features-links" id="features">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="language.html">LANGUAGES</a></li>
+					<li><a href="quiz.html">QUIZZES</a></li>
+					<li><a href="">TUTORIAL</a></li>
+					<li><a href="">EXERCISES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Welcome to Java</h1>
+	</section>
+
+<!----- JAVA content ------->
+
+<section class="java-sec">
+	<div class="java-body">
+		<div class="java-1">
+			<h2 class="java-head">Java Syntax</h2>
+			<p>Let's say you created the following code in a Java file called MyProgram.java to display "Hello World!" on the screen:</p>
+			<img src="Images/java-learn.png">
+			<p><span class="p-java">Explanation</span><br>
+			Java requires that every line of code execute within a class. We gave the class in our example the name "MyProgram. Every class should begin with an uppercase letter.</p>
+			<p><span class="p-java">Note: Java is syntax-sensitive, "MyProgram" and "myprogram" have different meanings.</span></p>
+			<p>The name of the java file and the class name should be the same.</p>	
+				<img src="Images/java-learn-1.png">
+			<h2 class="java-head">Java Output</h2>
+			<p><span class="p-java">Print Text</span></p>
+			<p>You see on the example that we used the "println()" the purpose of this method is to print the text inside its parenthesis. You can write or print as many as you can.</p>
+			<img src="Images/java-learn-2.png">
+		</div>
+	</div>
+</section>
+
+<!----- ABOUT ----->
+
+<section class="about-us">
+	<h4>About Us</h4>
+	<p>CODEHOME is an interactive website where the user can improve their undertanding when it comes to the fundamentals of different <br>programming languages. This website contains quizzes, learning, tutorials, and some exercises.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-google"></i>
+	</div>
+
+</section>
+
+<script>
+	
+	var features = document.getElementById("features");
+
+	function showMenu() {
+		features.style.right = "0";
+	}
+	function hideMenu() {
+		features.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>
